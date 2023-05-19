@@ -1,0 +1,57 @@
+/* Card */
+.card {
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card .add-todo-form {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+}
+.card .add-todo-form .field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card .todos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.card .todos li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #777;
+    padding-bottom: 5px;
+}
+.card .todos li span.completed {
+    text-decoration: line-through;
+}
+.card .todos li .actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card .todos li .green {
+    background-color: rgb(60, 189, 60);
+    color: #fff;
+}
+.card .todos li .red {
+    background-color: rgb(189, 60, 60);
+    color: #fff;
+}
+/* End Card */
